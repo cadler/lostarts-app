@@ -27,6 +27,9 @@
       "supportsTablet": true,
       "bundleIdentifier": "co.lostarts.app",
       "buildNumber": "1.0.2",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
       "associatedDomains": [
         "applinks:lostartx.xyz",
         "applinks:www.lostarts.xyz"
