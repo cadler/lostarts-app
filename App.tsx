@@ -76,9 +76,7 @@ export default function App() {
       <WebView
         source={{
           uri,
-          headers: {
-            Cookie: `push_token=${pushToken}`
-          },
+          headers: { 'X-LostArts-Push': pushToken },
         }}
         sharedCookiesEnabled={true}
         style={{ marginTop: 40, marginBottom: 30 }}
