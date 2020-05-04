@@ -26,7 +26,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "co.lostarts.app",
-      "buildNumber": "1.0.4",
+      "buildNumber": "1.0.5",
       "config": {
         "usesNonExemptEncryption": false
       },
