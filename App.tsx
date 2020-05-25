@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Linking, Platform, StatusBar, Vibration } from 'react-native';
+import { Linking, Platform, SafeAreaView, StatusBar, Vibration } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { Notifications } from 'expo';
 import * as Permissions from 'expo-permissions';
@@ -72,15 +72,16 @@ export default function App() {
 
   return (
     <>
-      <StatusBar hidden={true} />
-      <WebView
-        source={{
-          uri,
-          headers: { 'X-LostArts-Push': pushToken },
-        }}
-        sharedCookiesEnabled={true}
-        style={{ marginTop: 40, marginBottom: 30 }}
-      />
+      <SafeAreaView style={{ flex: 1, backgroundColor: "#161e2e" }}>
+        <StatusBar barStyle="light-content" translucent />
+        <WebView
+          source={{
+            uri,
+            headers: { 'X-LostArts-Push': pushToken },
+          }}
+          sharedCookiesEnabled={true}
+        />
+      </SafeAreaView>
     </>
   );
 }
