@@ -5,9 +5,7 @@
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "ios", "android", "web"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,20 +18,15 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "co.lostarts.app",
-      "buildNumber": "1.0.7",
+      "buildNumber": "1.0.8",
       "config": {
         "usesNonExemptEncryption": false
       },
-      "associatedDomains": [
-        "applinks:lostartx.xyz",
-        "applinks:www.lostarts.xyz"
-      ]
+      "associatedDomains": ["applinks:lostartx.xyz", "applinks:www.lostarts.xyz"]
     }
   }
 }
