@@ -16,7 +16,7 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.0.tar.gz",
     "react-native-screens": "~2.2.0",
     "react-native-web": "^0.12.2",
-    "react-native-webview": "8.1.1"
+    "react-native-webview": "11.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
